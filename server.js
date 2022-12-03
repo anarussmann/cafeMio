@@ -9,15 +9,26 @@ hbs.registerPartials(__dirname + '/views/partials'); // indicamos el directorio 
 
 app.use(express.static('public')); // indica la carpeta public para considerar archivos estáticos
 
+
+
 // Cuando voy a la raiz, entonces se ejecutan las siguientes instrucciones, por ejemplo, responde con renderizar el archivo index, que se encuentra en la carpeta views.
 app.get('/', (req, res) => {
-
     // (indica el nombre del archivo hbs, objeto)
     res.render('index',{ 
         titulo: "Mi página web"
     })
 
 })
+
+app.get('/', (req, res) => {
+  // (indica el nombre del archivo hbs, objeto)
+  res.render('about',{ 
+      titulo: "Sobre nosotros"
+  })
+
+})
+
+
 
 
 
