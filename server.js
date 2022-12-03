@@ -20,14 +20,20 @@ app.get('/', (req, res) => {
 
 })
 
-app.get('/about', (req, res) => {
+app.get('/', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
   res.render('about',{ 
       titulo: "Sobre nosotros"
   })
 
 })
+app.get('/', (req, res) => {
+  // (indica el nombre del archivo hbs, objeto)
+  res.render('contacto',{ 
+      titulo: "contacto"
+  })
 
+})
 
 
 
