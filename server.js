@@ -35,6 +35,24 @@ app.get('/', (req, res) => {
   })
 
 })
+app.get('/', (req, res) => {
+  // (indica el nombre del archivo hbs, objeto)
+  res.render('products',{ 
+      titulo: "productos",
+      productos: productos.products
+  })
+
+})
+
+app.get('/', (req, res) => {
+  // (indica el nombre del archivo hbs, objeto)
+  res.render('store',{ 
+      titulo: "como comprar"
+  })
+
+})
+
+
 
 
 
