@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const hbs = require('hbs');
+const productos = require('./data/products.json')
 
 const port = 3000
 
