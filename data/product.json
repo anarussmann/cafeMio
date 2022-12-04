@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Taza de café de especialidad",
+            "description": "Cuando de café se trata, cada detalle cuenta. Nuestros granos reciben el mejor tratamiento desde su selecto cultivo, pasando por su tostado hasta el envasado final. ¡Elegí el origen y la variedad que más te guste! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate!",
+            "price": 40,
+            "brand": "Café Mío",
+            "category": "cafe",
+            "thumbnail": "",
+            "images": []
+        },
+        {
+            "id": 2,
+            "title": "Croissant",
+            "description": "El Croissant es una pieza de panadería de origen francés. Fue creada en París en el siglo XIX por panaderos locales que se inspiraron de la forma del kifli. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate!",
+            "price": 60,
+            "brand": "Café Mío",
+            "category": "comida",
+            "thumbnail": "",
+            "images": []
+        },
+        {
+            "id": 3,
+            "title": "Variedad de productos a granel",
+            "description": "Nuestros granos de café son 100% puros, de máxima calidad, respetando las cualidades de origen. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate!",
+            "price": 0,
+            "brand": "Café Mío",
+            "category": "granos",
+            "thumbnail": "",
+            "images": []
+        }
+        
+    ],
+    "categories": [
+        "cafe",
+        "comida",
+        "granos"
+    ]
+}
