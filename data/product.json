@@ -7,7 +7,7 @@
             "price": 40,
             "brand": "Café Mío",
             "category": "cafe",
-            "thumbnail": "",
+            "thumbnail": "/public/img/products01.img",
             "images": []
         },
         {
@@ -17,7 +17,7 @@
             "price": 60,
             "brand": "Café Mío",
             "category": "comida",
-            "thumbnail": "",
+            "thumbnail": "/public/img/products02.img",
             "images": []
         },
         {
@@ -27,7 +27,7 @@
             "price": 0,
             "brand": "Café Mío",
             "category": "granos",
-            "thumbnail": "",
+            "thumbnail": "/public/img/products03.img",
             "images": []
         }
         
