@@ -35,6 +35,7 @@ app.get('/contacto', (req, res) => {
   })
 
 })
+
 app.get('/products', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
   res.render('products',{ 
@@ -55,6 +56,29 @@ app.get('/login', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
   res.render('login',{ 
       titulo: "Login"
+  })
+
+})
+
+//voy a probar de enrutar los productos
+app.get('/item-producto1', (req, res) => {
+  // (indica el nombre del archivo hbs, objeto)
+  res.render('item-producto1',{ 
+      titulo: "Taza de café"
+  })
+
+})
+app.get('/item-producto2', (req, res) => {
+  // (indica el nombre del archivo hbs, objeto)
+  res.render('item-producto2',{ 
+      titulo: "Croisant"
+  })
+
+})
+app.get('/item-producto3', (req, res) => {
+  // (indica el nombre del archivo hbs, objeto)
+  res.render('item-producto3',{ 
+      titulo: "Granel"
   })
 
 })
