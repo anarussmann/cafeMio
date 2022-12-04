@@ -21,21 +21,21 @@ app.get('/', (req, res) => {
 
 })
 
-app.get('/', (req, res) => {
+app.get('/about', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
   res.render('about',{ 
       titulo: "Sobre nosotros"
   })
 
 })
-app.get('/', (req, res) => {
+app.get('/contacto', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
   res.render('contacto',{ 
       titulo: "contacto"
   })
 
 })
-app.get('/', (req, res) => {
+app.get('/products', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
   res.render('products',{ 
       titulo: "productos",
@@ -44,7 +44,7 @@ app.get('/', (req, res) => {
 
 })
 
-app.get('/', (req, res) => {
+app.get('/store', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
   res.render('store',{ 
       titulo: "como comprar"

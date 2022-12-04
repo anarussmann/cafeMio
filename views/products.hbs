@@ -8,68 +8,73 @@
         {{> nav}}
 <!--productos-->
         <!--producto1-->
-        <section class="page-section">
-            <div class="container">
-                <a href="item-producto1.html" style="text-decoration: none; color: black;" >
-                    <div class="product-item">
-                        <div class="product-item-title d-flex">
-                            <div class="bg-faded p-5 d-flex ms-auto rounded">
-                                <h2 class="section-heading mb-0">
-                                    <span class="section-heading-upper">El arte de Blendear</span>
-                                    <span class="section-heading-lower">Cafés y tés</span>
-                                </h2>
+        <div>
+           {{#each productos}}
+            <section class="page-section">
+                <div class="container">
+                    <a href="item-producto1.html" style="text-decoration: none; color: black;" >
+                        <div class="product-item">
+                            <div class="product-item-title d-flex">
+                                <div class="bg-faded p-5 d-flex ms-auto rounded">
+                                    <h2 class="section-heading mb-0">
+                                        <span class="section-heading-upper">El arte de Blendear</span>
+                                        <span class="section-heading-lower">Cafés y tés</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-01.jpg" alt="..." />
+                            <div class="product-item-description d-flex me-auto">
+                                <div class="bg-faded p-5 rounded"><p class="mb-0">Estamos orgullosos de nuestro trabajo, y se nota. Cada vez que nos pedis una bebida, te garantizamos que será una experiencia que vale la pena tener. Ya sea nuestro capuchino venezolano de fama mundial, un refrescante té de hierbas helado o algo tan simple como una taza de café negro especial, regresarás por más.</p></div>
+                            </div>                  
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <!--producto2-->
+            <section class="page-section">
+                <div class="container">
+                    <!--<a href="item-producto2.html" style="text-decoration: none; color: black;">-->
+                    <a href="/item-producto2" style="text-decoration: none; color: black;"></a>
+                        <div class="product-item">
+                            <div class="product-item-title d-flex">
+                                <div class="bg-faded p-5 d-flex me-auto rounded">
+                                    <h2 class="section-heading mb-0">
+                                        <span class="section-heading-upper">Deliciosa repostería, Buena comida</span>
+                                        <span class="section-heading-lower">Panadería y Gastronomía</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-02.jpg" alt="..." />
+                            <div class="product-item-description d-flex ms-auto">
+                                <div class="bg-faded p-5 rounded"><p class="mb-0">Nuestro menú de temporada incluye deliciosos refrigerios, productos horneados e incluso comidas completas perfectas para el desayuno o el almuerzo. Obtenemos nuestros ingredientes de granjas orgánicas locales siempre que sea posible, junto con proveedores premium de productos especiales.</p></div>
                             </div>
                         </div>
-                        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-01.jpg" alt="..." />
-                        <div class="product-item-description d-flex me-auto">
-                            <div class="bg-faded p-5 rounded"><p class="mb-0">Estamos orgullosos de nuestro trabajo, y se nota. Cada vez que nos pedis una bebida, te garantizamos que será una experiencia que vale la pena tener. Ya sea nuestro capuchino venezolano de fama mundial, un refrescante té de hierbas helado o algo tan simple como una taza de café negro especial, regresarás por más.</p></div>
-                        </div>                  
-                    </div>
-                </a>
-            </div>
-        </section>
-        <!--producto2-->
-        <section class="page-section">
-            <div class="container">
-                <a href="item-producto2.html" style="text-decoration: none; color: black;">
-                    <div class="product-item">
-                        <div class="product-item-title d-flex">
-                            <div class="bg-faded p-5 d-flex me-auto rounded">
-                                <h2 class="section-heading mb-0">
-                                    <span class="section-heading-upper">Deliciosa repostería, Buena comida</span>
-                                    <span class="section-heading-lower">Panadería y Gastronomía</span>
-                                </h2>
+                    </a>
+                </div>
+            </section>
+            <!--producto3-->
+            <section class="page-section">
+                <div class="container">
+                    <a href="item-producto3.html" style="text-decoration: none; color: black;">
+                        <div class="product-item">
+                            <div class="product-item-title d-flex">
+                                <div class="bg-faded p-5 d-flex ms-auto rounded">
+                                    <h2 class="section-heading mb-0">
+                                        <span class="section-heading-upper">De todo el Mundo</span>
+                                        <span class="section-heading-lower">Mezclas especiales a granel</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-03.jpg" alt="..." />
+                            <div class="product-item-description d-flex me-auto">
+                                <div class="bg-faded p-5 rounded"><p class="mb-0">Viajar por el mundo en busca de café de la mejor calidad es algo de lo que nos enorgullecemos. Cuando nos visite, siempre encontrará nuevas mezclas de todo el mundo, principalmente de las regiones de América Central y del Sur. Vendemos nuestras mezclas en cantidades a granel pequeñas o grandes. <b>Por favor visitanos en persona para más detalles.</b></p></div>
                             </div>
                         </div>
-                        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-02.jpg" alt="..." />
-                        <div class="product-item-description d-flex ms-auto">
-                            <div class="bg-faded p-5 rounded"><p class="mb-0">Nuestro menú de temporada incluye deliciosos refrigerios, productos horneados e incluso comidas completas perfectas para el desayuno o el almuerzo. Obtenemos nuestros ingredientes de granjas orgánicas locales siempre que sea posible, junto con proveedores premium de productos especiales.</p></div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </section>
-        <!--producto3-->
-        <section class="page-section">
-            <div class="container">
-                <a href="item-producto3.html" style="text-decoration: none; color: black;">
-                    <div class="product-item">
-                        <div class="product-item-title d-flex">
-                            <div class="bg-faded p-5 d-flex ms-auto rounded">
-                                <h2 class="section-heading mb-0">
-                                    <span class="section-heading-upper">De todo el Mundo</span>
-                                    <span class="section-heading-lower">Mezclas especiales a granel</span>
-                                </h2>
-                            </div>
-                        </div>
-                        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-03.jpg" alt="..." />
-                        <div class="product-item-description d-flex me-auto">
-                            <div class="bg-faded p-5 rounded"><p class="mb-0">Viajar por el mundo en busca de café de la mejor calidad es algo de lo que nos enorgullecemos. Cuando nos visite, siempre encontrará nuevas mezclas de todo el mundo, principalmente de las regiones de América Central y del Sur. Vendemos nuestras mezclas en cantidades a granel pequeñas o grandes. <b>Por favor visitanos en persona para más detalles.</b></p></div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </section>
+                    </a>
+                </div>
+            </section>
+        </div>
+
         {{> footer}}
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
