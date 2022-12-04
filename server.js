@@ -51,7 +51,13 @@ app.get('/store', (req, res) => {
   })
 
 })
+app.get('/login', (req, res) => {
+  // (indica el nombre del archivo hbs, objeto)
+  res.render('login',{ 
+      titulo: "Login"
+  })
 
+})
 
 
 
