@@ -7,6 +7,13 @@ const path = require('path');
 const port = 3000
 
 app.set('view engine', 'hbs'); // indica que usaremos la plantilla "handlebars"
+
+app.set('views',[
+  path.join('./views/front'),
+  path.join('./views/back'),
+  path.join('./views')
+])
+
 hbs.registerPartials(__dirname + '/views/partials'); // indicamos el directorio hacia los parciales
 
 app.use(express.static('public')); // indica la carpeta public para considerar archivos estáticos
@@ -82,6 +89,42 @@ app.get('/item-producto3', (req, res) => {
       titulo: "Granel"
   })
 
+})
+
+
+// BACK
+app.get('/admin', (req, res) => {
+	res.render('admin', {
+		titulo: "Panel de control",
+		productos: productos[0].data
+	})
+})
+
+app.get('/agregar-producto', (req, res) => {
+	console.log("estas en agregar")
+	res.render('agregar-producto', {
+
+	})
+})
+
+app.get('/editar-producto', (req, res) => {
+	console.log("estas en editar")
+	res.render('editar-producto', {
+
+	})
+})
+
+//app.get('/login', (req, res) => {
+	//console.log("estas en login")
+	//res.render('login', {
+
+	//})
+//})  ojo ana que esto tenes que modificarlo
+
+app.use((req, res, next) => {
+	res.status(404).render('404', {
+		titulo: "404 - No encontrado"
+	})
 })
 
 
