@@ -48,7 +48,7 @@ app.get('/products', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
   res.render('products',{ 
       titulo: "productos",
-      productos: productos.products
+      //productos: productos.products
       //,
       //  *******Ana**** ver ojo 
       //productos: productos[0].data
