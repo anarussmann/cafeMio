@@ -11350,6 +11350,214 @@ p {
   font-size: 1.5rem;
   font-weight: 50;
 }
+/*fin de los titulos de productos agregados por mi*/
+
+/*inicio css plantilla inicial ventas pc para la pag producto1 y producto0 y sus modals*/
+
+.product-item {
+	margin-bottom: 30px;
+  }
+  
+  .product-item .product-thumb {
+	position: relative;
+  }
+  
+  .product-item .product-thumb img {
+	width: 100%;
+	height: auto;
+  }
+  
+  .product-item .product-thumb .bage {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	padding: 4px 12px;
+	font-weight: 300;
+	display: inline-block;
+  }
+  
+  
+  
+  .product-item .product-thumb .preview-meta {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	justify-content: center;
+	opacity: 0;
+	transition: 0.2s;
+	-webkit-transform: translateY(10px);
+			transform: translateY(10px);
+  }
+  
+  .product-item .product-thumb .preview-meta li {
+	display: inline-block;
+  }
+  
+  .product-item .product-thumb .preview-meta li a, .product-item .product-thumb .preview-meta li span {
+	background: #fff;
+	padding: 10px 0px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 20px;
+	transition: .2s all;
+	width: 50px;
+  }
+  
+  .product-item .product-thumb .preview-meta li a:hover, .product-item .product-thumb .preview-meta li span:hover {
+	background: #000;
+	color: #fff;
+  }
+  
+  .product-item:hover .product-thumb:before {
+	opacity: 1;
+  }
+  
+  .product-item:hover .preview-meta {
+	opacity: 1;
+	-webkit-transform: translateY(-20px);
+			transform: translateY(-20px);
+  }
+  
+  .product-item .product-content {
+	text-align: center;
+  }
+  
+  .product-item .product-content h4 {
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 15px;
+	margin-bottom: 6px;
+  }
+  
+  .product-item .product-content h4 a {
+	color: #000;
+  }
+  
+  /* modal */
+
+
+.product-modal {
+	background: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	padding: 0 !important;
+  }
+  
+  .product-modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+  }
+  
+  .product-modal.fade .modal-dialog {
+	-webkit-transform: translate(0, 0);
+			transform: translate(0, 0);
+  }
+  
+  .product-modal .close {
+	width: 50px;
+	float: none;
+	position: absolute;
+	right: 20px;
+	z-index: 9;
+	top: 20px;
+	font-size: 30px;
+	outline: none;
+  }
+  
+  .product-modal .modal-dialog {
+	width: 900px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+  }
+  
+  @media (max-width: 480px) {
+	.product-modal .modal-dialog {
+	  width: 100%;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.product-modal .modal-dialog {
+	  width: 100%;
+	}
+  }
+  
+  .product-modal .modal-content {
+	border-radius: 0;
+	box-shadow: none;
+	border: none;
+  }
+  
+  .product-modal .modal-content .modal-body {
+	padding: 30px;
+  }
+  
+  .product-modal .modal-content .modal-body .modal-image img {
+	width: 100%;
+	height: auto;
+  }
+  
+  .product-modal .modal-content .modal-body .product-short-details h2 {
+	margin-top: 0;
+	font-size: 22px;
+	font-weight: 400;
+  }
+  
+  .product-modal .modal-content .modal-body .product-short-details h2 a {
+	color: #000;
+  }
+  
+  @media (max-width: 480px) {
+	.product-modal .modal-content .modal-body .product-short-details h2 {
+	  margin-top: 15px;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.product-modal .modal-content .modal-body .product-short-details h2 {
+	  margin-top: 15px;
+	}
+  }
+  
+  .product-modal .modal-content .modal-body .product-short-details .product-price {
+	font-size: 30px;
+	margin: 20px 0;
+  }
+  
+  @media (max-width: 480px) {
+	.product-modal .modal-content .modal-body .product-short-details .product-price {
+	  margin: 10px 0;
+	}
+  }
+  
+  .product-modal .modal-content .modal-body .product-short-details .btn-main, .product-modal .modal-content .modal-body .product-short-details .btn-solid-border, .product-modal .modal-content .modal-body .product-short-details .btn-transparent, .product-modal .modal-content .modal-body .product-short-details .btn-small {
+	margin-top: 20px;
+  }
+  
+  .product-modal .modal-content .modal-body .product-short-details .btn-transparent {
+	color: #444;
+	border-bottom: 1px solid #dedede;
+  }
+  
+
+
+/* /producto */
+.product-modal .modal-content .modal-body .product-short-details .product-price {
+	font-size: 30px;
+	margin: 20px 0;
+  }
+
+
+/*fin de css plantilla inicial ventas pc*/
+
 
 
 .bg-faded {
