@@ -11339,6 +11339,19 @@ p {
   font-weight: 100;
 }
 
+/*titulos de los productos - agregado por mi Ana*/
+.section-heading .section-heading-upper-producto {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.section-heading .section-heading-lower-producto {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 50;
+}
+
+
 .bg-faded {
   background-color: #f6e1c5;
 }
