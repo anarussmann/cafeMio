@@ -16,18 +16,16 @@ app.set('view engine', 'hbs'); // indica que usaremos la plantilla "handlebars"
 
 hbs.registerPartials(__dirname + '/views/partials'); // indicamos el directorio hacia los parciales
 
-app.use(express.static('public')); // indica la carpeta public para considerar archivos estáticos
-
-
-
 // Cuando voy a la raiz, entonces se ejecutan las siguientes instrucciones, por ejemplo, responde con renderizar el archivo index, que se encuentra en la carpeta views.
 app.get('/', (req, res) => {
-    // (indica el nombre del archivo hbs, objeto)
-    res.render('index',{ 
-        titulo: "Mi página web"
-    })
+	res.render('index', {
+		titulo: "Mi página web",
+		//productos: productos[0].data
+	})
+}) 
 
-})
+app.use(express.static('public')); // indica la carpeta public para considerar archivos estáticos
+
 
 app.get('/about', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
@@ -80,14 +78,14 @@ app.get('/producto1', (req, res) => {
 
 })
 
-
-app.get('/item-producto2', (req, res) => {
+app.get('/producto2', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
-  res.render('item-producto2',{ 
+  res.render('producto2',{ 
       titulo: "Croisant"
   })
 
 })
+
 app.get('/item-producto3', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
   res.render('item-producto3',{ 
