@@ -72,10 +72,10 @@ app.get('/login', (req, res) => {
 })
 
 //voy a probar de enrutar los productos
-app.get('/item-producto1', (req, res) => {
+app.get('/producto1', (req, res) => {
   // (indica el nombre del archivo hbs, objeto)
-  res.render('item-producto1',{ 
-      titulo: "Taza de café"
+  res.render('producto1',{ 
+      titulo: "Tazas de café"
   })
 
 })
