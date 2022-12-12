@@ -1,0 +1,148 @@
+No se pueden crear, editar o subir archivos … No hay suficiente espacio de almacenamiento. Obtén más ahora o elimina archivos de Drive, Google Fotos o Gmail.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{> head}}
+</head>
+
+<body>
+
+
+
+    <!-- Start Top Header Bar -->
+    {{> header}}
+
+    <div class="px-4 py-5 text-center bg-primary bg-gradient text-light">
+        <h1 class="display-5 fw-bold ">Mi emprendimiento</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4 text-light">Descripcion corta de lo que trata el negocio</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="contacto.html" class="btn btn-dark btn-lg px-4">Contacto</a>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="products section">
+        <div class="container my-5 text-center">
+            <h2 class="fs-1">Productos</h2>
+
+            <div class="row">
+                {{#each productos as |product|}}
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-fluid" src={{thumbnail}}
+                                alt="product-img" />
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+                                        <span data-bs-toggle="modal" data-bs-target="#product-modal-{{id}}">
+                                            <i class="bi bi-search"></i>
+                                        </span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="">{{title}}</a></h4>
+                            <p class="price">u$s {{price}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal product-modal fade" id="product-modal-{{id}}" data-bs-backdrop="static"
+                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="product-modal" aria-hidden="true">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class="bi bi-x"></i></button>
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-6 col-xs-12">
+                                        <div class="modal-image">
+                                            <img class="img-fluid" src={{thumbnail}}
+                                                alt="product-img" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="product-short-details">
+                                            <h2 class="product-title">{{title}}</h2>
+                                            <p class="product-price">u$s {{price}}</p>
+                                            <div class="product-short-description">
+                                                {{description}}
+                                                <!-- ESTO FUNCIONA, para el futuro tal vez
+                                                {{#each product.images}}
+                                                    <img src={{this}} alt="">
+                                                {{/each}}
+                                                -->
+                                                <!-- <ul>
+                                                    <li> i7 </li>
+                                                    <li> 11gen </li>
+                                                    <li> 256gb SSD </li>
+                                                    <li> 16 gb RAM </li>
+                                                </ul> -->
+                                            </div>
+
+                                            <a href="/producto-detalle/{{id}}" class="btn btn-transparent d-block mb-3">Ver detalles
+                                                del producto</a>
+
+                                            <a href="mailto:"
+                                                class="btn btn-info mt-20">Comprar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+
+                
+
+            </div>
+        </div>
+    </section>
+
+
+
+    {{> footer}}
+
+    <!-- 
+        Essential Scripts
+        =====================================-->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
+
+
+*titulos de los productos - agregado por mi Ana*/
+.section-heading .section-heading-upper-producto {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.section-heading .section-heading-lower-producto {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 50;
+}
+/*fin de los titulos de productos agregados por mi*/
+/*precios Ana*/
+.heading-upper-precio{
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 50;
+}
+/*fin precios ana*/
