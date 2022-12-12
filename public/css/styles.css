@@ -10,6 +10,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -373,7 +374,7 @@ select:disabled {
   display: none;
 }
 
-button,
+/*button,
 [type=button],
 [type=reset],
 [type=submit] {
@@ -384,7 +385,7 @@ button:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
-}
+}*/
 
 ::-moz-focus-inner {
   padding: 0;
@@ -435,7 +436,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  /*-webkit-appearance: textfield;*/
 }
 
 /* rtl:raw:
@@ -2488,8 +2489,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  -webkit-text-stroke-color: exact;
+          color: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -7718,7 +7719,7 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: #e6a756;
-  /*color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;*/
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-secondary {
