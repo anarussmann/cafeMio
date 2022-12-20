@@ -2,39 +2,129 @@
     "products": [
         {
             "id": 1,
-            "title": "Taza de café de especialidad",
-            "description": "Cuando de café se trata, cada detalle cuenta. Nuestros granos reciben el mejor tratamiento desde su selecto cultivo, pasando por su tostado hasta el envasado final. ¡Elegí el origen y la variedad que más te guste! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate!",
+            "title": "Taza de café de especialidad 1",
+            "description": "Cuando de café se trata, cada detalle cuenta. Nuestros granos reciben el mejor tratamiento desde su selecto cultivo, pasando por su tostado hasta el envasado final. Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "price": 40,
             "brand": "Café Mío",
             "category": "cafe",
-            "thumbnail": "/public/img/products01.img",
+            "thumbnail": "/public/assets/img/taza1.jpg",
             "images": []
         },
         {
             "id": 2,
+            "title": "Taza de café de especialidad 2",
+            "description": "Un café cortado no es otra cosa que un café al que se le agrega un poco de leche para cortar un poco el sabor amargo. Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 40,
+            "brand": "Café Mío",
+            "category": "cafe",
+            "thumbnail": "/public/assets/img/taza2.jpg",
+            "images": []
+        },
+        {
+            "id": 3,
+            "title": "Vaso grande de café con helado",
+            "description": "El café frappé o café frapé (del griego φραπέ, frapé) es un café con hielo cubierto de espuma elaborado a partir de café instantáneo. Es muy popular en Grecia y Chipre, especialmente durante el verano. Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 40,
+            "brand": "Café Mío",
+            "category": "cafe",
+            "thumbnail": "/public/assets/img/taza3.jpg",
+            "images": []
+        },
+        {
+            "id": 4,
+            "title": "Té de Limón Caliente",
+            "description": "Gracias a sus propiedades antioxidantes, el té de limón controla los radicales libres y evita el envejecimiento al depurar las toxinas de la sangre. Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 40,
+            "brand": "Café Mío",
+            "category": "cafe",
+            "thumbnail": "/public/assets/img/taza3.jpg",
+            "images": []
+        },
+        {
+            "id": 5,
+            "title": "Té de Flor",
+            "description": "Las flores de té son sin lugar a duda el formato más atractivo para la vista de los consumidores de té. La belleza que adquieren en el agua las hace únicas para impresionar. Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 40,
+            "brand": "Café Mío",
+            "category": "cafe",
+            "thumbnail": "/public/assets/img/taza-te2.jpg",
+            "images": []
+        },
+        {
+            "id": 6,
+            "title": "Café Negro",
+            "description": "Se llama café negro a las extracciones puras de café. Es decir, sin otro tipo de ingredientes que no sean el café molido y el agua para su extracción. Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 40,
+            "brand": "Café Mío",
+            "category": "cafe",
+            "thumbnail": "/public/assets/img/taza4.jpg",
+            "images": []
+        },
+        {
+            "id": 7,
+            "title": "Taza de café de especialidad 3",
+            "description": "El Café Latte es una preparación clásica que consiste en dos ingredientes: Café espresso y leche al vapor Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 40,
+            "brand": "Café Mío",
+            "category": "cafe",
+            "thumbnail": "/public/assets/img/taza5.jpg",
+            "images": []
+        },
+        {
+            "id": 8,
             "title": "Croissant",
             "description": "El Croissant es una pieza de panadería de origen francés. Fue creada en París en el siglo XIX por panaderos locales que se inspiraron de la forma del kifli. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate!",
             "price": 60,
             "brand": "Café Mío",
             "category": "comida",
-            "thumbnail": "/public/img/products02.img",
+            "thumbnail": "/public/assets/img/croissant1.jpg",
             "images": []
         },
         {
-            "id": 3,
-            "title": "Variedad de productos a granel",
-            "description": "Nuestros granos de café son 100% puros, de máxima calidad, respetando las cualidades de origen. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate!",
-            "price": 0,
+            "id": 9,
+            "title": "Macarons",
+            "description": "El macaron es un pastelillo redondo, crujiente por fuera y blando por dentro, hecho con una pasta de almendras trituradas, azúcar y claras de huevo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate!",
+            "price": 60,
             "brand": "Café Mío",
-            "category": "granos",
-            "thumbnail": "/public/img/products03.img",
+            "category": "comida",
+            "thumbnail": "/public/assets/img/macarons.jpg",
+            "images": []
+        },
+        {
+            "id": 10,
+            "title": "Cookies",
+            "description": "La receta tradicional combina una masa a base de mantequilla y azúcar moreno o blanco con pepitas de chocolate semidulces. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate!",
+            "price": 60,
+            "brand": "Café Mío",
+            "category": "comida",
+            "thumbnail": "/public/assets/img/cookies.jpg",
+            "images": []
+        },
+        {
+            "id": 11,
+            "title": "Croissant con Almendras",
+            "description": "El Croissant es una pieza de panadería de origen francés. Fue creada en París en el siglo XIX por panaderos locales que se inspiraron de la forma del kifli. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate!",
+            "price": 60,
+            "brand": "Café Mío",
+            "category": "comida",
+            "thumbnail": "/public/assets/img/croissant2.jpg",
+            "images": []
+        },
+        {
+            "id": 12,
+            "title": "Butter Cookies",
+            "description": "Las galletas danesas, conocidas también como Brysslkex, butter cookies, galletas de mantequilla o sablès, son galletas preparadas con mantequilla, harina y azúcar. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate!",
+            "price": 60,
+            "brand": "Café Mío",
+            "category": "comida",
+            "thumbnail": "/public/assets/img/butter-cookies.jpg",
             "images": []
         }
+        
         
     ],
     "categories": [
         "cafe",
-        "comida",
-        "granos"
+        "comida"
     ]
 }

@@ -2,12 +2,12 @@
             <div class="col-lg-3 col-md-6 col-sm-10 mb-5">
                 <div class="card h-100">
                     <!-- Product image-->
-                    <img class="card-img-top" src="assets/img/taza2.jpg" alt="..." />
+                    <img class="card-img-top" src="assets/img/macarons.jpg" alt="..." />
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">Café especialidad 2</h5>
+                            <h5 class="fw-bolder">Macarons</h5>
                             <!-- Product price-->
                             $40.00
                         </div>
@@ -16,7 +16,7 @@
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                         <div class="text-center">
                             <button type="button" class="btn btn-primary" data-toggle="modal"
-                                data-target="#exampleModal2">
+                                data-target="#exampleModal">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-search" viewBox="0 0 16 16">
                                     <path
@@ -38,20 +38,20 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body exampleModalLabel2">
+                        <div class="modal-body exampleModalLabel">
                             <div class="row">
                                 <div class="col-md-8 col-sm-6 col-xs-12">
                                     <div class="modal-image">
-                                        <img class="img-fluid" src="assets/img/taza2.jpg" alt="product-img" />
+                                        <img class="img-fluid" src="assets/img/macarons.jpg" alt="product-img" />
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                     <div class="product-short-details">
-                                        <h2 class="section-heading-lower">Taza de Café</h2>
+                                        <h2 class="section-heading-lower">Macarons</h2>
                                         <p class="heading-upper-precio">$40</p>
                                         <div class="product-short-description">
-                                            <p>Ésto es una taza de café.</p>
-                                            <p>Café Especialidad 2.</p>
+                                            <p>Ésto es un macaron.</p>
+                                            <p>No es un alfajor de maicena.</p>
                                         </div><br>
 
                                         <a href="/producto-detalle/{{id}}"
@@ -72,12 +72,12 @@
             <div class="col-lg-3 col-md-6 col-sm-10 mb-5">
                 <div class="card h-100">
                     <!-- Product image-->
-                    <img class="card-img-top" src="assets/img/taza3.jpg" alt="..." />
+                    <img class="card-img-top" src="assets/img/cookies.jpg" alt="..." />
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">Café Helado</h5>
+                            <h5 class="fw-bolder">Cookies</h5>
                             <!-- Product price-->
                             $40.00
                         </div>
@@ -86,7 +86,7 @@
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                         <div class="text-center">
                             <button type="button" class="btn btn-primary" data-toggle="modal"
-                                data-target="#exampleModal3">
+                                data-target="#exampleModal">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-search" viewBox="0 0 16 16">
                                     <path
@@ -99,7 +99,7 @@
             </div>
 
             <!--comienzo modal producto 3-->
-            <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -112,16 +112,16 @@
                             <div class="row">
                                 <div class="col-md-8 col-sm-6 col-xs-12">
                                     <div class="modal-image">
-                                        <img class="img-fluid" src="assets/img/taza3.jpg" alt="product-img" />
+                                        <img class="img-fluid" src="assets/img/cookies.jpg" alt="product-img" />
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                     <div class="product-short-details">
-                                        <h2 class="section-heading-lower">Taza de Café</h2>
+                                        <h2 class="section-heading-lower">Cookies de Chocolate</h2>
                                         <p class="heading-upper-precio">$40</p>
                                         <div class="product-short-description">
-                                            <p>Ésto es un vaso grande de café con helado.</p>
-                                            <p>Café Helado.</p>
+                                            <p>Ésto es una pila de Cookies.</p>
+                                            <p>De Chocolate.</p>
                                         </div><br>
 
                                         <a href="/producto-detalle/{{id}}"
